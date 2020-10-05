@@ -1,14 +1,24 @@
 $(document).ready(function() {
 
+    // add class to bady by defoult 
+    $('body').addClass(localStorage.getItem('pageColor'));
+
+    //  windo load
     $( window ).load(function() {
         $('.loding-page').fadeOut();
       });
 
     // start dark-them
     $('.dark-mode-p-i').click(function() {
-        $('body').toggleClass('darck-them')
+        $('body').toggleClass('darck-them');
+        const bodyClass =  $('body').attr("class");
+        localStorage.setItem('pageColor',bodyClass );
     });
     // end dark-them
+
+
+
+
 
     // start slide
     $(".aside-content").niceScroll({
