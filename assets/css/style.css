@@ -3605,6 +3605,10 @@ body .dark-light {
   margin: 0 0 20px;
 }
 
+.order-details-section .employee-detais-box .detais-box-ul {
+  margin: 0 0 50px;
+}
+
 .order-details-section .employee-detais-box .detais-box-ul ul {
   border: 1px solid rgba(126, 114, 242, 0.4);
   border-radius: 5px;
