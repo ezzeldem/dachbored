@@ -3404,7 +3404,7 @@ body .dark-light {
   margin: 0 0 5px;
 }
 
-.detais-text-title i {
+.detais-text-title span, .detais-text-title i {
   margin: 0 10px 0 0;
   font-size: 12px;
 }
@@ -4113,4 +4113,3 @@ textarea:focus {
     font-size: 12px;
   }
 }
-/*# sourceMappingURL=style.css.map */

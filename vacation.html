@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link rel="icon" href="assets/img/Logo.svg" />
+    <title>Analytics Dashboard</title>
+</head>
+
+<body>
+    <div class="content-dashboard">
+        <div class="loding-page">
+            <img src="assets/img/Logo.svg" alt="" class="img-fluid" />
+            <div class="ball-clip-rotate-multiple">
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <!--start aside-nav -->
+        <aside class="aside-content dark-light">
+            <div class="logo">
+                <a href="#">
+                    <img src="assets/img/Logo.svg" alt="" class="img-fluid" />
+                    <h5 class="title-logo hide-80">
+                        Vuesax
+                    </h5>
+                </a>
+
+                <div class="exit">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+
+            <div class="page-li side-ul">
+                <ul class="page">
+                    <li>
+                        <a href="./index.html">
+                            <i class="far fa-circle"></i>
+                            <p class="link-page font14 hide-80">
+                                Analytics
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./ecommerce-dashboard.html">
+                            <i class="far fa-circle"></i>
+                            <p class="link-page font14 hide-80">
+                                eCommerce
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav-ul">
+                <h5 class="ul-title hide-80 dn-80">
+                    APPS
+                </h5>
+                <ul class="nav-ul-l">
+                    <li>
+                        <a href="#" class="active-a">
+                            <i class="far fa-envelope"></i>
+                            <p class="a-ul hide-80">
+                                notification
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./chat-app.html">
+                            <i class="far fa-comment-alt"></i>
+                            <p class="a-ul hide-80">
+                                Chat
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="far fa-calendar-check"></i>
+                            <p class="a-ul hide-80">
+                                Todo
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="far fa-calendar"></i>
+                            <p class="a-ul hide-80">
+                                Calendar
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav-ul">
+                <h5 class="ul-title hide-80 dn-80">
+                    UI ELEMENTS
+                </h5>
+                <ul class="nav-ul-l">
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-th-large"></i>
+                            <p class="a-ul hide-80">
+                                Grid
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-tint"></i>
+                            <p class="a-ul hide-80">
+                                Colors
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-credit-card"></i>
+                            <p class="a-ul hide-80">
+                                Card
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-table"></i>
+                            <p class="a-ul hide-80">
+                                Table
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="far fa-building"></i>
+                            <p class="a-ul hide-80">
+                                Components
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav-ul">
+                <h5 class="ul-title hide-80 dn-80">
+                    FORMS
+                </h5>
+                <ul class="nav-ul-l">
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-boxes"></i>
+                            <p class="a-ul hide-80">
+                                Form Elements
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-layer-group"></i>
+                            <p class="a-ul hide-80">
+                                Form Layouts
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-wpforms"></i>
+                            <p class="a-ul hide-80">
+                                Form Wizard
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="far fa-check-circle"></i>
+                            <p class="a-ul hide-80">
+                                Form Validation
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav-ul">
+                <h5 class="ul-title hide-80 dn-80">
+                    PAGES
+                </h5>
+                <ul class="nav-ul-l">
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-lock"></i>
+                            <p class="a-ul hide-80">
+                                Authentication
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="far fa-clock"></i>
+                            <p class="a-ul hide-80">
+                                Coming Soon
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-exclamation-triangle"></i>
+                            <p class="a-ul hide-80">
+                                Error
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-anchor"></i>
+                            <p class="a-ul hide-80">
+                                Maintenance
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-user-alt"></i>
+                            <p class="a-ul hide-80">
+                                Profile
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="far fa-question-circle"></i>
+                            <p class="a-ul hide-80">
+                                FAQ
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-exclamation-circle"></i>
+                            <p class="a-ul hide-80">
+                                Knowledge Base
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-search"></i>
+                            <p class="a-ul hide-80">
+                                Search
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="far fa-file-alt"></i>
+                            <p class="a-ul hide-80">
+                                Invoice
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+        <div class="over-flow"></div>
+        <!-- end aside-nav -->
+
+        <!--start content-nav -->
+        <div class="content-c">
+            <div class="container-fluid">
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="search-bar dark-light">
+                            <div class="row">
+                                <div class="col-md-6 col-2 d-flex align-items-center">
+                                    <div class="search-bar-ul">
+                                        <ul class="left-ul">
+                                            <li class="open-mune">
+                                                <a href="#">
+                                                    <i class="fas fa-indent devo-menu"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="far fa-calendar-check"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="./chat-app.html">
+                                                    <i class="far fa-comment-alt"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="far fa-envelope"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="far fa-calendar"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" style="color: #ffa84c;">
+                                                    <i class="far fa-star"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-10">
+                                    <div class="search-bar-ul right-ul">
+                                        <ul class="search-bar-ul-u">
+                                            <li class="darck-mode-li">
+                                                <p class="dark-mode-p-i dark-p active-dark">Dark</p>
+                                                <i class="far fa-moon dark-i active-dark dark-mode-p-i"></i>
+                                            </li>
+                                            <li class="notif">
+                                                <a href="#">
+                                                    <i class="far fa-bell"></i>
+                                                </a>
+
+                                                <div
+                                                    class="box-li-nav noti-box li-div-nutef box-shad box-rid-8 dark-light">
+                                                    <div class="box-header">
+                                                        <h2 class="box-header-title">
+                                                            6 Notification
+                                                        </h2>
+                                                        <h5 class="dits">
+                                                            box-header
+                                                        </h5>
+                                                    </div>
+
+                                                    <ul class="noti-box-ul">
+                                                        <li class="noti-email">
+                                                            <a href="./notif.html" class="noti-email-a">
+                                                                <div class="title-noti-box">
+                                                                    <i class="far fa-envelope"></i>
+                                                                    <h4 class="noti-box-dit">
+                                                                        4 Email
+                                                                    </h4>
+                                                                </div>
+                                                                <div class="time-noti">
+                                                                    <h6 class="time">2 mine</h6>
+                                                                </div>
+                                                            </a>
+                                                        </li>
+                                                        <li class="masseg-li">
+                                                            <a href="#" class="noti-email-a">
+                                                                <div class="title-noti-box">
+                                                                    <i class="far fa-comment-alt"></i>
+                                                                    <h4 class="noti-box-dit">
+                                                                        8 Chat
+                                                                    </h4>
+                                                                </div>
+                                                                <div class="time-noti">
+                                                                    <h6 class="time">5 mine</h6>
+                                                                </div>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="search">
+                                                <a href="#">
+                                                    <i class="fas fa-search"></i>
+                                                </a>
+
+                                                <div class="search-div box-li-nav box-shad box-rid-8 dark-light">
+                                                    <form><input type="text" id="search" class="search-input"
+                                                            class="search-input" placeholder="search" /></form>
+                                                </div>
+                                            </li>
+                                        </ul>
+
+                                        <div class="user-box">
+                                            <div class="name-box">
+                                                <h5 class="name font14">John Doe</h5>
+                                                <h6 class="state">Available</h6>
+                                            </div>
+                                            <div class="img" style="background-image: url('assets/img/Oval.png');">
+                                            </div>
+                                            <div class="profile-box box-shad box-rid-8 dark-light">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">
+                                                            log in
+                                                        </a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="#">
+                                                            log out
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            Settings
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="order-details-section">
+
+                            <div class="row">
+                                <div class="col-md-12">
+
+                                    <div class="employee-detais-box">
+                                        <h5 class="detais-box-title">
+                                            Manager Reply
+                                        </h5>
+                                        <div class="manger-img-box">
+                                            <div class="manger-img">
+                                                <img src="assets/img/hr-img.jpg" alt="img"
+                                                    class="img-fluid hoverZoomLink" />
+                                            </div>
+                                            <div class="manger-name-box">
+                                                <h6 class="manger-name">
+                                                    Ezz Elden
+                                                </h6>
+                                                <h6 class="manger-title">
+                                                    Direct Manager
+                                                </h6>
+                                            </div>
+                                        </div>
+                                        <div class="reply-form">
+                                            <form action="">
+                                                <div class="radio-box">
+                                                    <div class="radio-item">
+                                                        <input class="radio-button" type="radio" id="approved"
+                                                            name="reply" value="approved">
+                                                        <label for="approved" class="approved"> <i
+                                                                class="fas fa-check"></i> Approved</label>
+                                                    </div>
+
+                                                    <div class="radio-item">
+                                                        <input class="radio-button" type="radio" id="rejection"
+                                                            name="reply" value="rejection">
+                                                        <label for="rejection" class="rejection"> <i
+                                                                class="fas fa-times" aria-hidden="true"></i>
+                                                            Rejection</label>
+                                                    </div>
+                                                </div>
+                                                <div class="massge-box">
+                                                    <textarea class="massge-textarea" placeholder="Comment"
+                                                        name="comment" id="comment"></textarea>
+                                                </div>
+                                                <div class="submit-button-box">
+                                                    <button type="submit" class="submit-button">Submit</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-8 col-md-12">
+                                    <div class="employee-detais-box">
+                                        <div class="row">
+                                            <div class="col-lg-5 col-md-12">
+                                        <div class="employee-img">
+                                            <img src="assets/img/user.jpg" alt="" class="img-fluid" />
+                                        </div>
+                                        <h4 class="employee-name">
+                                            Ezz Elden Mohamed Ezz Elregal
+                                        </h4>
+                                        <div class="order-type">
+                                            <div class="employee-box">
+                                                <h5 class="sub-order-type">
+                                                    <i class="fas fa-briefcase"></i>  Jop Title :
+                                                </h5>
+                                                <h6 class="order-name">
+                                                    Front End Developer‎‏ 
+                                                </h6>
+                                            </div>
+                                            <div class="employee-box">
+                                                <h5 class="sub-order-type">
+                                                    <i class="fas fa-id-card-alt"></i> id :
+                                                </h5>
+                                                <h6 class="order-name">
+                                                    20385708
+                                                </h6>
+                                            </div>
+                                            <div class="employee-box">
+                                                <h5 class="sub-order-type">
+                                                    <i class="fas fa-project-diagram"></i> Section :
+                                                </h5>
+                                                <h6 class="order-name">
+                                                    IT
+                                                </h6>
+                                            </div>
+                                            <div class="employee-box">
+                                                <div class="order-date">
+                                                    <h6 class="date-time"><span class="date-lable">At</span><i class="fas fa-calendar-week"></i> 5 / 10 / 2020 </h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="col-lg-7 col-md-12">
+                                        <div class="employee-detais-contant">
+                                            <div class="detalis-line">
+
+                                                <div class="min-order-type-box">
+                                                    <div class="min-box">
+                                                        <h3 class="order-title-text">
+                                                            order type
+                                                        </h3>
+                                                        <span class="order-name-text">
+                                                            vacation
+                                                        </span>
+                                                    </div>
+                                                    <div class="min-box">
+                                                        <h3 class="order-title-text">
+                                                            vacation day Number 
+                                                        </h3>
+                                                        <span class="order-name-text">
+                                                            20 day
+                                                        </span>
+                                                    </div>
+                                                </div>
+
+                                                <div class="name-box">
+                                                    <h6 class="detais-text-title">
+                                                        <i class="fas fa-user"></i> On behalf :
+                                                    </h6>
+                                                    <h6 class="detais-text-content">
+                                                        Kogaddu Birappa Timappa Nair
+                                                    </h6>
+                                                </div>
+                                                <div class="name-box">
+                                                    <h6 class="detais-text-title">
+                                                        <i class="fas fa-user-friends"></i> Authorization :
+                                                    </h6>
+                                                    <h6 class="detais-text-content">
+                                                        Ramadan MAdboly Elside Ragap
+                                                    </h6>
+                                                </div>
+                                            </div>
+                                            <div class="detalis-line">
+                                                <div class="name-box">
+                                                    <h6 class="detais-text-title">
+                                                        <i class="fas fa-thumbtack"></i> Order Type :
+                                                    </h6>
+                                                    <h6 class="detais-text-content">
+                                                        Example
+                                                    </h6>
+                                                </div>
+                                                <div class="name-box">
+                                                    <h6 class="detais-text-title">
+                                                        <i class="fas fa-thumbtack"></i> Type :
+                                                    </h6>
+                                                    <h6 class="detais-text-content">
+                                                        Example
+                                                    </h6>
+                                                </div>
+                                            </div>
+                                            <div class="detalis-line">
+                                                <div class="name-box">
+                                                    <h6 class="detais-text-title">
+                                                        <i class="fas fa-map-marker-alt "></i> Adress :
+                                                    </h6>
+                                                    <h6 class="detais-text-content">
+                                                        Example
+                                                    </h6>
+                                                </div>
+                                                <div class="name-box">
+                                                    <h6 class="detais-text-title">
+                                                        <i class="fas fa-calendar-week"></i> Back Date :
+                                                    </h6>
+                                                    <h6 class="detais-text-content">
+                                                        2 / 4 / 2021
+                                                    </h6>
+                                                </div>
+                                            </div>
+                                            <div class="detalis-line">
+                                                <div class="name-box">
+                                                    <h6 class="detais-text-title">
+                                                        <i class="fas fa-calendar-day "></i> From :
+                                                    </h6>
+                                                    <h6 class="detais-text-content">
+                                                        2 / 3 / 2021
+                                                    </h6>
+                                                </div>
+                                                <div class="name-box">
+                                                    <h6 class="detais-text-title">
+                                                        <i class="fas fa-calendar-day"></i> To :
+                                                    </h6>
+                                                    <h6 class="detais-text-content">
+                                                        10 / 3 / 2021
+                                                    </h6>
+                                                </div>
+                                            </div>
+                                            <div class="detalis-line">
+                                                <div class="name-box">
+                                                    <h6 class="detais-text-title">
+                                                        <i class="far fa-sticky-note"></i> Notes :
+                                                    </h6>
+                                                    <h6 class="detais-text-content">
+                                                        Example Example Example
+                                                    </h6>
+                                                </div>
+                                            </div>
+                                            
+                                            
+                                            <div class="download-link">
+                                                <a href="#" download>
+                                                    Download File <i class="fas fa-download"></i>
+                                                </a>
+                                            </div>
+                                        </div>   
+                                    </div>
+                                </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-lg-4 col-md-12">
+                                    <div class="employee-detais-box">
+                                        <h5 class="detais-box-title">
+                                            More Detais
+                                        </h5>
+                                        <div class="detais-box-ul">
+                                            <ul class="list-unstyled">
+                                                <li>
+                                                    <h6 class="box-title">
+                                                        Days
+                                                    </h6>
+                                                    <span class="detais-number">
+                                                        5
+                                                    </span>
+                                                </li>
+                                                <li>
+                                                    <h6 class="box-title">
+                                                        Available
+                                                    </h6>
+                                                    <span class="detais-number">
+                                                        52.9
+                                                    </span>
+                                                </li>
+                                                <li>
+                                                    <h6 class="box-title">
+                                                        Previous stage
+                                                    </h6>
+                                                    <span class="detais-number">
+                                                        1
+                                                    </span>
+                                                </li>
+                                                <li>
+                                                    <h6 class="box-title">
+                                                        Total availability
+                                                    </h6>
+                                                    <span class="detais-number">
+                                                        2
+                                                    </span>
+                                                </li>
+                                                <li>
+                                                    <h6 class="box-title">
+                                                        Vacation days required
+                                                    </h6>
+                                                    <span class="detais-number">
+                                                        0
+                                                    </span>
+                                                </li>
+                                                <li>
+                                                    <h6 class="box-title">
+                                                        Official holidays
+                                                    </h6>
+                                                    <span class="detais-number">
+                                                        0
+                                                    </span>
+                                                </li>
+                                                <li>
+                                                    <h6 class="box-title">
+                                                        Vacation Holidays are an exception
+                                                    </h6>
+                                                    <span class="detais-number">
+                                                        0
+                                                    </span>
+                                                </li>
+                                                <li>
+                                                    <h6 class="box-title">
+                                                        The remaining vacation days
+                                                    </h6>
+                                                    <span class="detais-number">
+                                                        0
+                                                    </span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="employee-note">
+                                            <h5 class="detais-box-title">
+                                                Employee Feedback
+                                            </h5>
+                                            <p class="prag">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                <span> Nulla </span> tempora doloribus <span> earum </span> sed tenetur.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                    
+                                
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="employee-detais-box">
+                                        <h5 class="detais-box-title">
+                                            Order Tracking
+                                        </h5>
+                                        <div class="min-order-tracking-box">
+                                            <div class="order-tracking-box">
+                                                <div class="manger-img">
+                                                    <img src="assets/img/hr-img.jpg" alt="img" class="img-fluid" />
+                                                </div>
+                                                <div class="manger-detalis-box">
+                                                    <div class="manger-title-box">
+                                                        <div class="manger-name-box">
+                                                            <h6 class="manger-name">
+                                                                Ezz Elden
+                                                            </h6>
+                                                            <h6 class="manger-title">
+                                                                Direct Manager
+                                                            </h6>
+                                                        </div>
+                                                        <div class="replay-time">
+                                                            <span>
+                                                                10 / 4
+                                                            </span>
+                                                            <span>
+                                                                10:00 AM
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="manger-commnet">
+                                                        <h5 class="commnet-lable">Commnet : <span> ok </span></h5>
+                                                        <h5 class="commnet-stutes">Stutes : <span class="rejection">
+                                                                Rejection </span></h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="order-tracking-box">
+                                                <div class="manger-img">
+                                                    <img src="assets/img/hr-img.jpg" alt="img" class="img-fluid" />
+                                                </div>
+                                                <div class="manger-detalis-box">
+                                                    <div class="manger-title-box">
+                                                        <div class="manger-name-box">
+                                                            <h6 class="manger-name">
+                                                                Ezz Elden
+                                                            </h6>
+                                                            <h6 class="manger-title">
+                                                                Direct Manager
+                                                            </h6>
+                                                        </div>
+                                                        <div class="replay-time">
+                                                            <span>
+                                                                10 / 4
+                                                            </span>
+                                                            <span>
+                                                                10:00 AM
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="manger-commnet">
+                                                        <h5 class="commnet-lable">Commnet : <span> ok </span></h5>
+                                                        <h5 class="commnet-stutes">Stutes : <span class="approved">
+                                                                Approved </span></h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end content-nav -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.iframehelper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script src="assets/js/plugin.js"></script>
+    <script>
+        $('.order-details-section .employee-detais-box .reply-form form .radio-box .radio-item .radio-button').click(function () {
+            if ($('.order-details-section .employee-detais-box .reply-form form .radio-box .radio-item .radio-button#rejection').is(':checked')) {
+                $('.order-details-section .employee-detais-box .reply-form form .massge-box').show();
+            } else {
+                $('.order-details-section .employee-detais-box .reply-form form .massge-box').hide();
+            }
+        });
+    </script>
+</body>
+
+</html>
